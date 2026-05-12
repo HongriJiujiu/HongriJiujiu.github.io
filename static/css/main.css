@@ -1,8 +1,32 @@
 @import "./styles.css";
 
+:root {
+    --h-title-color: #3948d2;
 
-:root{
-    --h-title-color:#3948d2;
+    --font-display: "Inter", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans SC", sans-serif;
+    --font-body: var(--font-display);
+
+    --bs-body-font-family: var(--font-body);
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.65;
+}
+
+body {
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+}
+
+.navbar-brand {
+    font-family: var(--font-display);
+    font-weight: 600;
 }
 
 .header {
@@ -22,8 +46,15 @@
     height: 25rem;
 }
 
-.top-section h2 {
-    font-weight: 400;
+.top-section #top-section-bg-text {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.top-section h2:not(#top-section-bg-text) {
+    font-family: var(--font-display);
+    font-weight: 500;
 }
 
 .top-section .top-section-content {
@@ -41,29 +72,72 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-section header h2{
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+section header h2 {
+    font-family: var(--font-display) !important;
     color: var(--h-title-color);
-    font-size: 2.3rem;
-    line-height: 4rem;
+    font-weight: 600;
+    font-size: clamp(1.75rem, 2.5vw, 2.1rem);
+    line-height: 1.35;
+    margin-bottom: 0.5rem;
 }
 
-section .main-body{
-    font-size: 1.3rem;
-    font-weight: 200;
-    line-height: 2.4rem;
+section .main-body {
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.72;
+    color: rgba(33, 37, 41, 0.92);
+    max-width: 52rem;
 }
 
+section .main-body p {
+    margin-bottom: 0.75rem;
+}
+
+section .main-body h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.35rem;
+    margin-bottom: 0.5rem;
+    color: rgba(33, 37, 41, 0.95);
+}
+
+section .main-body h4 {
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+section .main-body ul {
+    padding-left: 1.35rem;
+    margin-bottom: 0.85rem;
+}
+
+section .main-body li {
+    margin-bottom: 0.35rem;
+}
+
+section .main-body code {
+    font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Menlo,
+        Monaco, Consolas, "PingFang SC", "Microsoft YaHei", monospace;
+    font-size: 0.93em;
+    font-weight: 500;
+}
+
+section .main-body a {
+    text-underline-offset: 0.2em;
+}
 
 .bg-gradient-primary-to-secondary-light {
+    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+}
+
+.bg-gradient-primary-to-secondary-dark {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
 }
 
 .bg-gradient-primary-to-secondary-gray {
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
-
-
 
 .on-top {
     position: relative;
@@ -87,11 +161,10 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: min(-65px, max(-100px, calc(-1 * 100vw / 12)));
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -99,7 +172,7 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
+    height: max(130px, min(200px, calc(100vw / 6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -108,5 +181,3 @@ section .main-body{
         margin: 0;
     }
 }
-
-
