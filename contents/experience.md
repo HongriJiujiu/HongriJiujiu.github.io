@@ -1,21 +1,25 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
-
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
-
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+以下为在校期间参与的**校企合作科研课题**，非企业正式雇佣或实习履历。
 
 ---
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+### **华为－盘古大模型计算误差分析与判定**  
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
+**2025 年 12 月 – 2026 年 2 月**  
 
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+担任学生负责人，参与 OpenPangu-Embedded-1B-V1.1 的模型开发与评测；搭建微调实验流程，排查训练阶段 **loss 不一致**等现象，并从数据、并行策略与训练配置等维度分析其对**收敛稳定性**的影响。
+
+---
+
+### **华为－计算误差分析与 Oracle 判定技术**  
+
+**2025 年 7 月 – 至今**  
+
+作为学生骨干之一，在 **MindSpeed-LLM** 上完成 **Qwen2.5-32B** 分布式训练环境的搭建及多机多卡训练优化；参与设计训练监控与管理方案，便于观察资源利用率、通信与吞吐表现，并对异常延时等问题进行**监测与可视化**。
+
+---
+
+### **专业技能摘要**  
+
+- **编程与工具：** Matlab；Python  
+- **写作：** LaTeX（学术论文排版）  
+- **语言：** 大学英语四级、六级  

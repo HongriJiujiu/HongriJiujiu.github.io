@@ -1,20 +1,23 @@
-[![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/XX)
+[![GitHub](https://img.shields.io/badge/GitHub-hongl-blue?logo=github)](https://github.com/hongl)
 
-I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
+东南大学交通工程专业本科生（2022 级起在读），计划于 2026 年秋季攻读统计学硕士学位。籍贯江西宜春。
 
-#### Email  
-<code>XX@XX.XX</code>  
-<code>XX@XX.XX</code>
+#### 联系方式  
 
-#### Education  
-**XX University**, Master of XX (XX – XX)  
-• GPA: XX/XX  
+<code>213222359@seu.edu.cn</code>  
+<code>+86 19327933037</code>
 
-**XX University**, Exchange student <br>  
-• As a XX, represented my college as an outstanding student for a XX exchange program.  
+#### 教育经历  
 
-**XX University**, Honours Bachelor of XX (XX – XX)  
-• GPA: XX/XX (top XX%)  
+**东南大学**，交通工程学士（2022.09–至今）  
 
-#### Research Interests  
-XX, XX, XX, XX.
+- 代表性课程：高等数学、大学物理、概率论与数理统计、程序设计与算法语言、信息与控制基础、数据结构与算法、计算机综合课程等  
+- 课程绩点：3.91 / 4.8  
+
+**东南大学**，统计学硕士（预计 2026.09 起）  
+
+#### 研究兴趣  
+
+大模型分布式训练与稳定性、训练过程监测与诊断；强化学习与 LLM 在交通与决策问题中的结合；仿真与评测方法。
+
+更多论文与项目细节见 **Publications** 与 **Experience** 板块；荣誉与竞赛见 **Awards**。
